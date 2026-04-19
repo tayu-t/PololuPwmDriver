@@ -1,0 +1,65 @@
+{
+    "name" : "pololuPwmMotor",
+    "plugin" : "PololuPwmDriver",
+    "icon" : "pololuPwmMotor.png",
+    "parameters" : [
+        {
+            "key" : "pwmPin",
+            "label" : "PWM Pin",
+            "default"  : 19,
+            "mainUI" : "input",
+            "detailUI" : "stepper",
+            "minRange" : 0,
+            "maxRange" : 32
+        },
+        {
+            "key" : "dirPin",
+            "label" : "Direction Pin",
+            "default"  : 13,
+            "mainUI" : "input",
+            "detailUI" : "stepper",
+            "minRange" : 0,
+            "maxRange" : 32 
+        },
+        {
+            "key" : "encoderPinA",
+            "label" : "Encoder Pin A\n(If not used = -1)",
+            "default"  : 5,
+            "mainUI" : "input",
+            "detailUI" : "stepper",
+            "minRange" : 0,
+            "maxRange" : 32
+        },
+        {
+            "key" : "encoderPinB",
+            "label" : "Encoder Pin B\n(If not used = -1)",
+            "default"  : 6,
+            "mainUI" : "input",
+            "detailUI" : "stepper",
+            "minRange" : 0,
+            "maxRange" : 32
+
+        },
+        {
+            "key" : "gearRatio",
+            "label" : "Gear Ratio",
+            "default"  : 75,
+            "mainUI" : "input",
+            "detailUI" : "stepper"
+        },
+        {
+            "key" : "cpr",
+            "label" : "CPR",
+            "default"  : 48,
+            "mainUI" : "input",
+            "detailUI" : "stepper"
+        },
+        {
+            "key" : "rpmSensorIndex",
+            "label" : "RPMSensorIndex\n(1-4,If not used = -1)",
+            "default"  : -1,
+            "mainUI" : "input",
+            "detailUI" : "stepper"
+        }
+    ]
+}
