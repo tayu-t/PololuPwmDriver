@@ -2,6 +2,7 @@
     "name" : "pololuPwmMotor",
     "plugin" : "PololuPwmDriver",
     "icon" : "pololuPwmMotor.png",
+    "moduleType":"Actuator",
     "parameters" : [
         {
             "key" : "pwmPin",
