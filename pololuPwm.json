@@ -3,7 +3,7 @@
     "plugin" : "PololuPwmDriver",
     "icon" : "pololuPwmMotor.png",
     "moduleType":"Actuator",
-    "parameters" : [
+    "param" : [
         {
             "key" : "pwmPin",
             "label" : "PWM Pin",
